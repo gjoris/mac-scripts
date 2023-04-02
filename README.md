@@ -8,3 +8,4 @@
   - Installed packages: 
     - `nvm`
     - `python`
+    - `mas`
