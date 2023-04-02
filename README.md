@@ -5,6 +5,6 @@
 ### Requirements
 
 - HomeBrew 
--- Installed packages: 
---- `nvm`
---- `python`
+  - Installed packages: 
+    - `nvm`
+    - `python`
