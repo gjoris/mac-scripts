@@ -17,6 +17,7 @@ brew doctor
 brew update && brew upgrade
 brew cleanup -s
 brew bundle --force dump && brew bundle --force cleanup
+rm Brewfile
 echo "Updating HomeBrew done."
 echo "Updating Node ..."
 #NVM
@@ -25,6 +26,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 nvm install --lts
+nvm install-latest-npm
 npm update -g 
 echo "Updating Node done."
 echo "Updating all Python packages ..."
